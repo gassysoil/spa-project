@@ -10,11 +10,11 @@ function App() {
       <MainHeader></MainHeader>
       <main>
         <Routes>
-          <Route path="/welcome" element={<Welcome></Welcome>}></Route>
-          <Route path="/products" element={<Products></Products>}></Route>
+          <Route path="/welcome" element={<Welcome />}></Route>
+          <Route path="/products" element={<Products />}></Route>
           <Route
-            path="/product_detail/:productID"
-            element={<ProductDetail></ProductDetail>}
+            path="/products/:productID"
+            element={<ProductDetail />}
           ></Route>
         </Routes>
       </main>
